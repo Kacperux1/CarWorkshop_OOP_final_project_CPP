@@ -1,0 +1,2 @@
+"D:\CLion\CLion 2023.3.4\bin\mingw\bin\ar.exe" qc libMathLibrary.a CMakeFiles/MathLibrary.dir/src/model/Client.cpp.obj
+"D:\CLion\CLion 2023.3.4\bin\mingw\bin\ranlib.exe" libMathLibrary.a

@@ -1,0 +1,6 @@
+C:\windows\system32\wsl.exe --distribution Debian --exec "/mnt/d/JetBrains/CLion 2024.1.1/bin/ttyfix" /bin/bash -c "export CLION_IDE=TRUE && export CMAKE_COLOR_DIAGNOSTICS=ON && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/andrz/CLionProjects/Warsztaty/project -B /mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug"
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.60.0") found components: unit_test_framework 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug

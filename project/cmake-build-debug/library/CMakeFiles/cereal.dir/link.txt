@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcereal.a CMakeFiles/cereal.dir/json11/json11.cpp.o
+/usr/bin/ranlib libcereal.a

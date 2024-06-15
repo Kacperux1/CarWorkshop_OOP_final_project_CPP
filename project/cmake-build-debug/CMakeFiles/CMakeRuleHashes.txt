@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+4464e99c9e00416261ec88ac37350b65 library/CMakeFiles/check
+1fb739a2c632a4e6366170b30a10a955 library/cereal/doc/CMakeFiles/doc
+fe1fc9b44e8eaebce79837520537bedc library/cereal/doc/CMakeFiles/update-doc

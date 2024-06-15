@@ -1,0 +1,15 @@
+{
+    "value0": [
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "id": 2147483649,
+                "data": {
+                    "value0": "Janusz",
+                    "value1": "Pogorzelski",
+                    "value2": 1
+                }
+            }
+        }
+    ]
+}

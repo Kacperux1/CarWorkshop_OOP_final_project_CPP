@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CarWorkshop"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\library\cereal\;CMake Files\library\cereal\sandbox\;CMake Files\library\cereal\sandbox\sandbox_shared_lib\;CMake Files\library\cereal\doc\;CMake Files\library\cereal\scripts\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.74.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_serialization-1.74.0\;CMake Files\program\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Library">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Library/fast">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LibraryTester">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/LibraryTester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 LibraryTester"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LibraryTester/fast">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/LibraryTester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 LibraryTester/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check">
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 sandbox"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox/fast">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 sandbox/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox_json">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_json" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 sandbox_json"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox_json/fast">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_json" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 sandbox_json/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox_rtti">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_rtti" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 sandbox_rtti"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox_rtti/fast">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_rtti" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 sandbox_rtti/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox_vs">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_vs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_shared_lib"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 sandbox_vs"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox_vs/fast">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_vs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_shared_lib"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 sandbox_vs/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="performance">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/performance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 performance"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="performance/fast">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/performance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_DYN_LINK"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 performance/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox_vs_dll">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib/libsandbox_vs_dll.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_shared_lib"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib/Makefile&quot;  VERBOSE=1 sandbox_vs_dll"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox_vs_dll/fast">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib/libsandbox_vs_dll.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_shared_lib"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib/Makefile&quot;  VERBOSE=1 sandbox_vs_dll/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc">
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/doc/Makefile&quot;  VERBOSE=1 doc"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="update-doc">
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/doc/Makefile&quot;  VERBOSE=1 update-doc"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program/Program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/program/include"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Program/fast">
+				<Option output="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program/Program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/program/include"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include"/>
+					<Add directory="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/performance.cpp">
+			<Option target="performance"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox.cpp">
+			<Option target="sandbox"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_json.cpp">
+			<Option target="sandbox_json"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_rtti.cpp">
+			<Option target="sandbox_rtti"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_shared_lib/base.cpp">
+			<Option target="sandbox_vs_dll"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_shared_lib/base.hpp">
+			<Option target="sandbox_vs_dll"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_shared_lib/derived.cpp">
+			<Option target="sandbox_vs_dll"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_shared_lib/derived.hpp">
+			<Option target="sandbox_vs_dll"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_vs.cpp">
+			<Option target="sandbox_vs"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/managers/CarManager.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/managers/ClientManager.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/managers/RepairOrderManager.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/model/Car.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/model/Client.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/model/EngineChange.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/model/GearboxRepair.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/model/GeneralInspection.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/model/LPGInstallation.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/model/RepairOrder.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/model/RepairType.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/repositories/CarRepository.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/repositories/ClientRepository.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/repositories/RepairOrderRepository.h">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/include/typedefs.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/managers/CarManager.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/managers/ClientManager.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/managers/RepairOrderManager.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/model/Car.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/model/Client.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/model/EngineChange.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/model/GearboxRepair.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/model/GeneralInspection.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/model/LPGInstallation.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/model/RepairOrder.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/model/RepairType.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/repositories/CarRepository.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/repositories/ClientRepository.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/src/repositories/RepairOrderRepository.cpp">
+			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/CarManagerTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/CarRepositoryTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/CarTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/ClientManagerTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/ClientRepositoryTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/ClientTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/EngineChangeTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/GearboxRepairTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/GeneralInspectionTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/LPGInstallationTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/RepairOrderRepositoryTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/RepairOrderTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/test/master.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/program/src/main.cpp">
+			<Option target="Program"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\cereal\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/Config.cmake.in">
+			<Option virtualFolder="CMake Files\library\cereal\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\cereal\sandbox\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/sandbox/sandbox_shared_lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\cereal\sandbox\sandbox_shared_lib\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\cereal\doc\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/doc/doxygen.in">
+			<Option virtualFolder="CMake Files\library\cereal\doc\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/library/cereal/scripts/updatedoc.in">
+			<Option virtualFolder="CMake Files\library\cereal\scripts\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.74.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.74.0/boost_unit_test_framework-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.74.0/boost_unit_test_framework-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.74.0/libboost_unit_test_framework-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.74.0/libboost_unit_test_framework-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_serialization-1.74.0/boost_serialization-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_serialization-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_serialization-1.74.0/boost_serialization-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_serialization-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_serialization-1.74.0/libboost_serialization-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_serialization-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_serialization-1.74.0/libboost_serialization-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_serialization-1.74.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\program\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

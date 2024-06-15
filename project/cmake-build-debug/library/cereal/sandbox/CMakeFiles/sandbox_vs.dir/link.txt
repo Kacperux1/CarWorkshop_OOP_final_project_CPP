@@ -1,0 +1,1 @@
+/usr/bin/g++ -g3 -gdwarf-4 CMakeFiles/sandbox_vs.dir/sandbox_vs.cpp.o -o sandbox_vs  -Wl,-rpath,/mnt/c/Users/andrz/CLionProjects/Warsztaty/project/cmake-build-debug/library/cereal/sandbox/sandbox_shared_lib sandbox_shared_lib/libsandbox_vs_dll.so 

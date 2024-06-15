@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "library/cereal/sandbox/sandbox_shared_lib",
+		"source" : "library/cereal/sandbox/sandbox_shared_lib"
+	}
+}
