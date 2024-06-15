@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC -g3 -gdwarf-4 -shared -Wl,-soname,libsandbox_vs_dll.so -o libsandbox_vs_dll.so CMakeFiles/sandbox_vs_dll.dir/base.cpp.o CMakeFiles/sandbox_vs_dll.dir/derived.cpp.o 

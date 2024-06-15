@@ -1,9 +1,0 @@
-# ninja log v5
-1	1462	7327310151239936	library/CMakeFiles/Library.dir/src/model/Client.cpp.obj	e9611ee0e8b68059
-4	473	7327310244301054	library/libLibrary.a	4ff6222015b9898f
-15	1340	7327310252962795	program/CMakeFiles/Program.dir/src/main.cpp.obj	21a38f0c5c63b51b
-1341	2485	7327310264235621	program/Program.exe	281337290f0c01ab
-8	8493	7330012276436715	library/CMakeFiles/Library.dir/src/model/Client.cpp.obj	e9611ee0e8b68059
-662	8508	7330012276506702	program/CMakeFiles/Program.dir/src/main.cpp.obj	21a38f0c5c63b51b
-8495	8925	7330012280800046	library/libLibrary.a	4ff6222015b9898f
-8925	9959	7330012291095581	program/Program.exe	281337290f0c01ab

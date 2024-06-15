@@ -1,1 +1,0 @@
-/usr/bin/g++ -g3 -gdwarf-4 CMakeFiles/performance.dir/performance.cpp.o -o performance  /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.74.0 
